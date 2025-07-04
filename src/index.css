@@ -71,6 +71,7 @@ header .top-section .top-section-links .links:hover{
 
 header nav{
     padding: 10px;
+    height: 150px;
     background-color: var(--background);
     box-shadow: var(--box-shadow);
     position: sticky;
