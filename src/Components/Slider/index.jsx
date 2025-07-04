@@ -4,14 +4,14 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import slider1 from '../../assets/slider1.jpg';
  import slider2 from '../../assets/slider2.png';
-// import slider3 from '../../assets/image/slider3.jpg';
+import slider3 from '../../assets/slider3.jpg';
 import '../../index.css';
 import Button from '@mui/material/Button';
 import { Link } from "react-router-dom";
 
 export default function SimpleSlider() {
  var settings = {
-  dots: true,
+  dots: false,
   infinite: true,
   speed: 500,
   slidesToShow: 1,
@@ -57,7 +57,7 @@ export default function SimpleSlider() {
                  </Link>
             </Button>
         </div>
-        {/* <img src={slider3} alt="Logo" className='swiper-img' /> */}
+        <img src={slider3} alt="Logo" className='swiper-img' />
       </div>
     </Slider>
   );

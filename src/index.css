@@ -3,7 +3,7 @@
   --accent-color: #ff6f61;
   --background-color: #e3e3e3; 
   --text-color: #1a1a1a;
-  --text-colo-2: #333; 
+  --text-color-2: #333; 
   --font-family: 'Arial', sans-serif;
   --box-shadow: 0 4px 8px #0000001a;
 }
@@ -130,10 +130,9 @@ header nav .nav-icons ul li:hover{
   height: 60vh;
   overflow: hidden;
   margin: 2rem auto 0 auto;
-  border-radius: 16px; /* Add this line */
-  box-shadow: var(--box-shadow); /* Optional: adds subtle shadow */
+  border-radius: 16px; 
+  box-shadow: var(--box-shadow); 
 }
-
 
 
 .slider-item {
@@ -190,6 +189,61 @@ header nav .nav-icons ul li:hover{
   right: 20px;
 }
 
+
+/*Home Section*/
+
+.custom-section {
+  padding-top: 3rem;
+  padding-bottom: 1.25rem;
+  background-color: #fff;
+  margin-top: 1.25rem;
+}
+
+.custom-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.custom-shipping {
+  width: 97%;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-width: 1px;
+  border-style: solid;
+  border-color: var(--accent-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0.375rem;
+}
+
+.custom-col1 {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.custom-shipping-icon {
+  font-size: 50px;
+}
+
+.custom-shipping-text {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.custom-col2 p{
+  font-size: 16px;
+  color: var(--text-color);
+  font-weight: 400;
+  margin-bottom: 0;
+  margin-right: 20px;
+}
 
 
 
